@@ -34,6 +34,9 @@ const LandingPage = () => {
 					</Row>
 				</div>
 			</SurveyBtnWrapper>
+			<ReviewCardsWrapper className="flex-center">
+			
+			</ReviewCardsWrapper>
 		</div>
 	);
 }
