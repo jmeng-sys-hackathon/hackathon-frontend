@@ -1,9 +1,9 @@
-
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
     <div className="App">
-      <h1>CITI Hackathon</h1>
+      <LandingPage />
     </div>
   );
 }
