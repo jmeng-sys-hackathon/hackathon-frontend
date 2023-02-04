@@ -1,10 +1,10 @@
-import Card from "./Components/Card";
+import Card from "./components/Card";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <h1>CITI Hackathon</h1>
-      <Card />
+      <Footer />
     </div>
   );
 }
