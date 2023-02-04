@@ -1,5 +1,7 @@
 import React from "react";
 import NavigationBar from "../components/NavigationBar";
+import Card from "../components/Card";
+
 import styled from "styled-components";
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -35,7 +37,7 @@ const LandingPage = () => {
 				</div>
 			</SurveyBtnWrapper>
 			<ReviewCardsWrapper className="flex-center">
-			
+				<Card />
 			</ReviewCardsWrapper>
 		</div>
 	);
@@ -108,4 +110,7 @@ const SurveyBtnWrapper = styled.div`
 	.btn-survey:hover {
 		background: hsl(211, 97%, 45%);
 	}
+`;
+
+const ReviewCardsWrapper = styled.div`
 `;
