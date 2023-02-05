@@ -4,7 +4,6 @@ import Card from "../components/Card";
 
 import styled from "styled-components";
 import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -14,7 +13,7 @@ const LandingPage = () => {
 			<NavigationBar />
 			<LandingPageMainImageContainer>
 				<div className="inner-container">
-					<img className="landing-image" src={require("../img/main-image.png")}/>
+					<img className="landing-image" alt="" src={require("../img/main-image.png")}/>
 					<div className="landing-image-overlay">
 						<p>Discover. Experience. Connect</p>
 					</div>
@@ -37,7 +36,24 @@ const LandingPage = () => {
 				</div>
 			</SurveyBtnWrapper>
 			<ReviewCardsWrapper className="flex-center">
-				<Card />
+				<Card title="'A real sense of community, nurtured'" 
+					  subtitle="Really appreciate the help and support from the staff during these tough times. Shoutout to Katie..." 					  
+					  imgalt="image1" 
+					  img={require("../img/pic-1.png")}
+					  rating={5}
+				/>
+				<Card title="'The facilities are superb, clean, and bright.'" 
+					  subtitle="“A real sense of community, nurtured”Really appreciate the help and support from the staff during..."	  
+					  imgalt="image1" 
+					  img={require("../img/pic-2.png")}
+					  rating={4}
+				/>
+				<Card title="'The facilities are superb, clean, and bright.'" 
+					  subtitle="“A real sense of community, nurtured”Really appreciate the help and support from the staff during..."	  
+					  imgalt="image1" 
+					  img={require("../img/pic-3.png")}
+					  rating={5}
+				/>
 			</ReviewCardsWrapper>
 		</div>
 	);
