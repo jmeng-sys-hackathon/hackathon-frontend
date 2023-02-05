@@ -43,13 +43,13 @@ const LandingPage = () => {
 					  rating={5}
 				/>
 				<Card title="'The facilities are superb, clean, and bright.'" 
-					  subtitle="“A real sense of community, nurtured”Really appreciate the help and support from the staff during..."	  
+					  subtitle="Really appreciate the help and support from the staff during..."	  
 					  imgalt="image1" 
 					  img={require("../img/pic-2.png")}
 					  rating={4}
 				/>
 				<Card title="'The facilities are superb, clean, and bright.'" 
-					  subtitle="“A real sense of community, nurtured”Really appreciate the help and support from the staff during..."	  
+					  subtitle="Really appreciate the help and support from the staff during..."	  
 					  imgalt="image1" 
 					  img={require("../img/pic-3.jpeg")}
 					  rating={5}
