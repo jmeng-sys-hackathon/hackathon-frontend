@@ -1,5 +1,5 @@
-import Card from "./components/Card";
-import Footer from "./components/Footer";
+// import Card from "./components/Card";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
