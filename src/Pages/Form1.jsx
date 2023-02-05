@@ -12,6 +12,17 @@ function Form1() {
         className="shadow-sm p-2 mb-3 bg-white rounded"
         style={{ background: "white", textAlign: "center" }}
       >
+        <label>Steps: 1 of 4</label>
+        <div
+          class="progress"
+          role="progressbar"
+          aria-label="Basic example"
+          aria-valuenow="75"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          <div class="progress-bar w-25"></div>
+        </div>
         <label>Who are you travelling with?</label>
         <div className="col-md-12">
           <input type="radio" name="travel" value="Myself" />
