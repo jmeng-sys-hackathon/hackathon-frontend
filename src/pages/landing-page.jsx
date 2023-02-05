@@ -1,6 +1,6 @@
 import React from "react";
-import NavigationBar from "../components/NavigationBar";
-import Card from "../components/Card";
+import NavigationBar from "../Components/NavigationBar";
+import Card from "../Components/Card";
 
 import styled from "styled-components";
 import Button from 'react-bootstrap/Button';
