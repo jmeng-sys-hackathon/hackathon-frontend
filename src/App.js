@@ -1,10 +1,15 @@
+<<<<<<< HEAD
 import Card from "./Components/Card";
 import Form from "./Pages/Form1";
 import Form2 from "./Pages/Form2";
+=======
+import LandingPage from "./pages/landing-page.jsx";
+>>>>>>> origin/adolphus-landing-page
 
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
       <h1>CITI Hackathon</h1>
       <Card title="Hey" subtitle="wassup" imgalt="image1" />
       <Card title="weey" subtitle="wassup" imgalt="image2" />
@@ -15,6 +20,9 @@ function App() {
         allowfullscreen
         style={{ width: 800, height: 800 }}
       /> */}
+=======
+      <LandingPage />
+>>>>>>> origin/adolphus-landing-page
     </div>
   );
 }
