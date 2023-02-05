@@ -15,7 +15,7 @@ const LandingPage = () => {
 				<div className="inner-container">
 					<img className="landing-image" alt="" src={require("../img/main-image.png")}/>
 					<div className="landing-image-overlay">
-						<p>Discover. Experience. Connect</p>
+						<p>Discover. Experience. Connect.</p>
 					</div>
 				</div>
 			</LandingPageMainImageContainer>
@@ -39,7 +39,7 @@ const LandingPage = () => {
 				<Card title="'A real sense of community, nurtured'" 
 					  subtitle="Really appreciate the help and support from the staff during these tough times. Shoutout to Katie..." 					  
 					  imgalt="image1" 
-					  img={require("../img/pic-1.png")}
+					  img={require("../img/pic-1.PNG")}
 					  rating={5}
 				/>
 				<Card title="'The facilities are superb, clean, and bright.'" 
@@ -51,7 +51,7 @@ const LandingPage = () => {
 				<Card title="'The facilities are superb, clean, and bright.'" 
 					  subtitle="“A real sense of community, nurtured”Really appreciate the help and support from the staff during..."	  
 					  imgalt="image1" 
-					  img={require("../img/pic-3.png")}
+					  img={require("../img/pic-3.jpeg")}
 					  rating={5}
 				/>
 			</ReviewCardsWrapper>
