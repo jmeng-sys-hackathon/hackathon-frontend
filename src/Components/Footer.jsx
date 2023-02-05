@@ -121,8 +121,7 @@ export default function Footer() {
          className="text-center p-3"
          style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}
          >
-      © 2023 Copyright:
-      <a className="text-white" href="https://mdbootstrap.com/">YYCWinter.ca</a>
+          © 2023 Copyright YYCWinter.ca
     </div>
  
   </footer>
