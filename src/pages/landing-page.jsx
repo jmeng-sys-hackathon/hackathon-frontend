@@ -28,7 +28,7 @@ const LandingPage = () => {
 							</Button>{' '}
 						</Col>
 						<Col style={{paddingLeft: "40px"}}>
-							<Button className="w-100 btn-survey" variant="primary">
+							<Button className="w-100 btn-survey" variant="primary" href="https://www.figma.com/proto/LmjaNssVyk8qvjkR8ru5K3/YYC-HackApp-Design?page-id=0%3A1&node-id=18%3A33611&viewport=338%2C495%2C0.11&scaling=min-zoom&starting-point-node-id=18%3A33611&show-proto-sidebar=1&hide-ui=1">
 								From Out of Town - Coming in Hot!
 							</Button>{' '}
 						</Col>
