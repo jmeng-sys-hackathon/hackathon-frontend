@@ -4,7 +4,6 @@ import Rating from "@mui/material/Rating";
 import styled from "styled-components";
 
 function card(props) {
-  console.log(props)
   return (
     <CardStyle style={{ width: "22rem" }} className="shadow p-3 mb-3 rounded">
       <Card.Body>

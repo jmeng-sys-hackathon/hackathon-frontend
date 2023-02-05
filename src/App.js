@@ -1,6 +1,5 @@
-
-import LandingPage from "./pages/landing-page.jsx";
-import Footer from "./Components/Footer";
+import LandingPage from "./Pages/landing-page.jsx";
+import Footer from "./components/Footer";
 
 function App() {
   return (
