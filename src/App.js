@@ -1,10 +1,11 @@
-import Card from "./Components/Card";
+import LandingPage from "./Pages/landing-page.jsx";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <h1>CITI Hackathon</h1>
-      <Card />
+      <LandingPage />
+      <Footer />
     </div>
   );
 }
